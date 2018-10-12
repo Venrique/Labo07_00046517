@@ -6,9 +6,9 @@ container.style.width = "200px";
 container.style.height = "200px";
 container.innerHTML = "<input type='text' placeholder='escriba su texto'>";
 
-container = document.getElementsByClassName("c2");
+containers = document.getElementsByClassName("c2");
 
-for(let i of container){
+for(let i of containers){
     i.style.backgroundColor = "#009999"
     i.innerHTML = "<input type='text' placeholder='Escriba su texto'>";
 }
